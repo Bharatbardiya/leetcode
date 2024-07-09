@@ -16,9 +16,7 @@ public:
                 ans += temp-customer[0];
                 temp += customer[1];
             }
-            else {
-                temp = customer[0]+customer[1];
-            }
+            else temp = customer[0]+customer[1];
         }
         return ans/n;
     }
